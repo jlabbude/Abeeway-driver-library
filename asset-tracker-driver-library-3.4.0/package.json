@@ -1,0 +1,25 @@
+{
+  "name": "@abeeway/asset-tracker-driver-library",
+  "version": "3.4.0",
+  "description": "Abeeway Asset Tracker driver library",
+  "main": "./main.js",
+  "scripts": {
+    "prebuild": "npm version --no-git-tag-version --allow-same-version `cat ../VERSION`",
+    "build": "webpack",
+    "deploy": "npm publish --scope=@abeeway"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.int.actility.com:abeeway-software/iot-flow-js-driver-assettracker.git"
+  },
+  "author": "Mengxuan Zhao",
+  "contributors": [],
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.10.0",
+    "webpack-cli": "^4.2.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
