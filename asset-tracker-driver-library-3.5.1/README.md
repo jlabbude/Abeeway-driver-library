@@ -607,7 +607,7 @@ The response is:  `0b06f800000000f900000004`.
             "dr7":false
          },
          "transmissionType":"DOUBLE",
-         "adrenabled":true
+         "ADREnabled":true
       }
    }
 }
