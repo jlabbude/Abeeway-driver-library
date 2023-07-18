@@ -1,6 +1,6 @@
 {
   "name": "@abeeway/asset-tracker-driver-library",
-  "version": "3.5.3",
+  "version": "3.6.0",
   "description": "Abeeway Asset Tracker driver library",
   "main": "./main.js",
   "scripts": {
